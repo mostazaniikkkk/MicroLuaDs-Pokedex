@@ -5,11 +5,10 @@ local atks = require("PkmnData/atks")
 local maractus
 
 do
-  --Carga typing
+  --Carga datos
   local grass = require("Assets/Typing/Grass/typing")
-  
-  --Carga movimientos
   local absorb = require("Assets/Atks/Grass/absorb")
+
   
   --Carga data Pokemon
   local maractus_data = {

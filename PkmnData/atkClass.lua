@@ -1,6 +1,6 @@
-local atkType = {}
+local atkClass = {}
 
-function atkType:new(data)
+function atkClass:new(data)
 	local id = data.id
 	local name = data.name
 	local spr = data.spr
@@ -9,4 +9,4 @@ function atkType:new(data)
 	return self
 end
 
-return atkType
+return atkClass
